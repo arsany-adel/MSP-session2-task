@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+}
+
+:root {
+    --Cyan: #1e90ff;
+    --semi-black: #201d2e;
+    --Black: #181621;
+    --light-grey: #87868e;
+}
+
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3.5vw 5em 4vw;
+    padding-top: 1.3em;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    margin-right: 12px;
+    width: 18%;
+}
+
+.logo-name {
+    font-size: 1.4em; /* Adjusted to em unit */
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+    font-size: 1.2em; /* Adjusted to em unit */
+}
+
+.salutation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.9em;
+    margin: auto 10vw; /* Adjusted to percentage unit */
+}
+
+.salutation-text p {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.salutation-text h1 {
+    font-size: 3.7em; /* Adjusted to em unit */
+    font-weight: bold;
+}
+
+.salutation-text button {
+    border-radius: 2em;
+    width: 8rem; /* Adjusted to rem unit */
+    height: 2rem;
+    font-size: 1.1em;
+    background-color: var(--Cyan);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Black);
+    height: 30vh;
+}
+
+.social-media div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    text-align: center;
+    gap: 0.8em;
+    height: 100%;
+}
+
+.social-media img {
+    width: 15%;
+}
+
+.social-media-descreption {
+    color: var(--light-grey);
+}
+
+.about_us {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--semi-black);
+    padding: 3em;
+    gap: 2.5em;
+}
+
+.about_us h1 {
+    font-size: 3rem;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.about_us_button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+#active {
+    background-color: var(--Cyan);
+}
+
+.button_description {
+    width: 63%;
+    text-align: center;
+}
+
+.button_description p {
+    color: var(--light-grey)
+}
+
+.committees_cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 20%;
+    gap: 1em;
+}
+
+.card p {
+    color: var(--light-grey);
+}
+
+.committee {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.committee img {
+    margin-right: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 20vh;
+    background-color: var(--Black);
+    padding: 1em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75em;
+  width: 33%;
+  margin: auto;
+}
+
+.footer h1 {
+    font-size: 3em;
+}
+
+.footer p {
+    text-align: center;
+    color: var(--light-grey);
+}
+
+
+
+
+
+
+
+
